@@ -1,0 +1,143 @@
+CSE 373 HW05 Feedback for user: OUN,YI-CHING_youn0001+CHUANG,TZU_twc5
+----------------------------------
+Feedback file for: OUN,YI-CHING_youn0001+CHUANG,TZU_twc5
+
+Graded by: 
+
+Total Points for HW05 (out of 80): 74 + 1
+
+(Design/Style: 12, WriteUp: 23, Correctness: 45 )
+
+--------------------------------------------------
+Design/Style - 12 points total
+
+ (1 out of 1 pts) Header Comment
+
+ (2 out of 2 pts) Class Comments
+
+ (2 out of 2 pts) Methods Comments inc. pre/post conditions
+
+ (2 out of 2 pts) Private Fields
+
+ (1 out of 1 pts) Variable/Method/Class names
+
+ (2 out of 2 pts) Otherwise good style (constants, boolean zen, initialization inside constructor, etc.)
+
+ (2 out of 2 pts) Otherwise good design
+
+Overall Design/Style Feedback:
+--------------------------------------------------
+Total Design/Style Points (12 out of 12): 12
+--------------------------------------------------
+
+Writeup - 23 points total
+ (out of 4) #1:adjacentVertices: 4
+ (out of 4) #1:edgeCost: 4
+ (out of 4) #1:shortestPath: 4
+ (out of 8) #2: 8
+ (out of 3) #3: (Only required if working with a partner) 3
+--------------------------------------------------
+Total Writeup Points (out of 23): 23
+--------------------------------------------------
+
+--------------------------------------------------
+Total Correctness Points (out of 45): 39
+--------------------------------------------------
+
+EXTRA CREDIT Completed:
+b: 1/2
+Instead of using libraries, you should implement the priority queue by  yourself.
+**************************************************
+More Detailed Feedback on Correctness:
+
+----------------------------------
+Correctness results for MyGraphs
+----------------------------------
+Testing EDGES method:
+edges method is correct.
+Total edges() score: 2/2
+
+Testing VERTICES method:
+vertices method is correct.
+Total vertices() score: 2/2
+
+Testing ADJACENTVERTICES method:
+Testing ADJACENTVERTICES exceptions:
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex doesn't exist.
+adjacentVertices method is correct.
+Total adjacentVertices() score: 6/6
+
+Testing EDGECOST method:
+Testing EDGECOST exceptions:
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+edgeCost method is correct.
+Total edgeCost() score: 6/6
+
+Testing SHORTESTPATH exceptions:
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+Correct exception thrown - java.lang.IllegalArgumentException: Vertex a or b does not exist.
+shortestPath throws correct exceptions.
+Total shortestPath exceptions score: 1/1
+
+Testing handling of self edges:
+3 of 3 cases handled correcly
+Total self edge score: 1/1
+
+Testing DIJKSTRA - GRAPH 1 - Airports graph:
+shortestPath is correct on graph 1
+Graph 1 Score: 2/2
+
+Testing DIJKSTRA - GRAPH 2 - Graph from lecture nodes:
+shortestPath is correct on graph 2
+Graph 2 Score: 2/2
+
+Testing DIJKSTRA - GRAPH 3 - Straight line graph:
+shortestPath is correct on graph 3
+Graph 3 Score: 2/2
+
+Testing DIJKSTRA - GRAPH 4 - Big random graph:
+shortestPath is correct on graph 4
+Graph 4 Score: 2/2
+
+Testing DIJKSTRA - GRAPH 5 - No Path:
+shortestPath is correct on graph 5
+Graph 5 Score: 2/2
+
+Testing PATH - Big random graph:
+ERROR: path contains wrong number of vertices. Student: [2, 13, 18, 4, 25, 15, 30] Official: [2, 19, 12, 30]
+Path Score: 0/5
+
+TOTAL automated grading result:                   28/33
+
+Testing constructor behavior:
+-> Threw "java.lang.NullPointerException" in response to null parameters.
+-> ERROR: no exception thrown for edge with nonexistent vertex.
+-> Threw "java.lang.IllegalArgumentException: Edge weights should not be negative or zero." in response to edge with negative weight.
+-> Correctly ignores duplicate vertices
+-> Correctly ignores duplicate edges
+-> Threw "java.lang.IllegalArgumentException: Duplicate edges with a different weight." in response to contradictory edges.
+Total constructor behavior score:                   5/6
+
+ShortestPath partial credit points:                 5/5
+
+Modified FindPaths.java to print mesg:              1/1
+
+TOTAL Correctness score:                            39/45
+
+----------------------------------
+Compile Errors (if any):
+----------------------------------
+----------------------------------
+Other Results: 
+----------------------------------
+=============================
+OUN,YI-CHING_youn0001+CHUANG,TZU_twc5
+=============================
+Graphs:
+
+----------------------------------
+END OF FEEDBACK FILE
+----------------------------------
